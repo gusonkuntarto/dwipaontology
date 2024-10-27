@@ -1,0 +1,395 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/guson/ontologies/2024/7/dwipaontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/guson/ontologies/2024/7/dwipaontology">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#ukel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#balih_balihan"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#traditional_dance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Terompong"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ulap-ulap"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#daily"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Juglag"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Event"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#monthly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#traditional_musical_instruments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bebali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gong_Kebyar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bali"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ngelier"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bebali_dance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pendet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pendet_dance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Suling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#movement_hands"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://schema.org/images"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Province"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gong_Kebyar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#legong"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weekly"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#topeng_dance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#movement_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#custome_properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attraction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Annually"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_dance_main_description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Set_Gong_Kebyar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dance_movement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_dance_description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Janur"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#balih_balihan"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMovementDescription"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_event"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mahkota"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bokor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_played_at"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dance_costume"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wayang_wong_dance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Insidential"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#traditional_folk_music"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_dance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pendet"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Annually"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Event"/>
+        <Class IRI="#Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gong_Kebyar"/>
+        <Class IRI="#traditional_musical_instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Insidential"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#balih_balihan"/>
+        <Class IRI="#pendet_dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bebali"/>
+        <Class IRI="#pendet_dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#custome_properties"/>
+        <Class IRI="#dance_costume"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#daily"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dance_costume"/>
+        <Class IRI="#pendet_dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dance_movement"/>
+        <Class IRI="#pendet_dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#legong"/>
+        <Class IRI="#traditional_dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#monthly"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#movement_eyes"/>
+        <Class IRI="#dance_movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#movement_hands"/>
+        <Class IRI="#dance_movement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pendet_dance"/>
+        <Class IRI="#traditional_dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#topeng_dance"/>
+        <Class IRI="#bebali"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#traditional_dance"/>
+        <Class IRI="#Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#traditional_folk_music"/>
+        <Class IRI="#Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#traditional_musical_instruments"/>
+        <Class IRI="#Attraction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wayang_wong_dance"/>
+        <Class IRI="#traditional_dance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weekly"/>
+        <Class IRI="#Event"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Province"/>
+        <NamedIndividual IRI="#Bali"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#custome_properties"/>
+        <NamedIndividual IRI="#Bokor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#traditional_musical_instruments"/>
+        <NamedIndividual IRI="#Gong_Kebyar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#custome_properties"/>
+        <NamedIndividual IRI="#Janur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gong_Kebyar"/>
+        <NamedIndividual IRI="#Juglag"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#custome_properties"/>
+        <NamedIndividual IRI="#Mahkota"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#movement_eyes"/>
+        <NamedIndividual IRI="#Ngelier"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gong_Kebyar"/>
+        <NamedIndividual IRI="#Set_Gong_Kebyar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gong_Kebyar"/>
+        <NamedIndividual IRI="#Suling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gong_Kebyar"/>
+        <NamedIndividual IRI="#Terompong"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#balih_balihan"/>
+        <NamedIndividual IRI="#balih_balihan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#bebali"/>
+        <NamedIndividual IRI="#bebali_dance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#traditional_dance"/>
+        <NamedIndividual IRI="#pendet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#movement_hands"/>
+        <NamedIndividual IRI="#ukel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#movement_hands"/>
+        <NamedIndividual IRI="#ulap-ulap"/>
+    </ClassAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#hasMovementDescription"/>
+        <NamedIndividual IRI="#Ngelier"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Gerakan ini adalah melihat ke atas lalu ke tengah</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_dance_description"/>
+        <NamedIndividual IRI="#balih_balihan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Tarian ini adalah tarian untuk kepentingan hiburan/ tontonan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_dance_description"/>
+        <NamedIndividual IRI="#bebali_dance"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Peranan tari Pendet sangat penting dalam kegiatan sosial dan keagamaan, karena itu tari Pendet masuk dalam golongan tarian suci. Tari Pendet sering dijumpai pada saat upacara-upacara keagamaan (bebali), yang biasanya dipentaskan di halaman Pum(jeroan ), atau halaman tengah (jdba tengah ), dan diiringi oleh gamelan berlaras pelog atau gamelan gong kebyar</Literal>
+    </DataPropertyAssertion>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_dance"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#has_event"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#is_played_at"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#is_played_at"/>
+    </InverseFunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_dance"/>
+        <Class IRI="#Province"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_event"/>
+        <Class IRI="#Insidential"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_played_at"/>
+        <Class IRI="#traditional_dance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_dance"/>
+        <Class IRI="#pendet_dance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_event"/>
+        <Class IRI="#traditional_dance"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_played_at"/>
+        <Class IRI="#traditional_musical_instruments"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#hasMovementDescription"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_dance_description"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_dance_main_description"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_dance_description"/>
+        <Class IRI="#balih_balihan"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_dance_description"/>
+        <Class IRI="#bebali"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_dance_main_description"/>
+        <Class IRI="#pendet_dance"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMovementDescription"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_dance_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_dance_main_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/images"/>
+        <IRI>#Ngelier</IRI>
+        <IRI>https://ia600102.us.archive.org/6/items/ngelier-gerakan-tari-pendet/Ngelier%20%281%29.png</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://schema.org/images"/>
+        <IRI>#Set_Gong_Kebyar</IRI>
+        <IRI>https://ia600802.us.archive.org/12/items/gong-kebyar-tari-pendet/Gong%20Kebyar%20%282%29.png</IRI>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.5.20160517-0735) https://github.com/owlcs/owlapi -->
+
